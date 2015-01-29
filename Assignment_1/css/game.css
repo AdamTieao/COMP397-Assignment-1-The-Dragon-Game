@@ -13,6 +13,12 @@
     background-size: cover;
 }
 
+.result {    
+    color:red;
+    text-align:center;
+    font: bold 50px Times New Roman;
+}
+
 .step {
     position: relative;
     width: 900px;
@@ -67,6 +73,7 @@
 
 a:link {
     color:red;
+    text-align: center;
 }
 
 a:active{
