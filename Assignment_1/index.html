@@ -1,9 +1,53 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <title></title>
-</head>
-<body>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>COMP397-Assignment 1-The Dragon Game</title>
+
+    <!-- CSS Section -->
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/game.css" rel="stylesheet" />
+</head>
+<body onload="main();">
+
+    <div id="impress">
+        <!-- Game Start -->
+        <div id="0" class="step slide">
+            <div class="slide-text">
+                <p>Click <a href="#1">START</a> to start the game.</p>
+            </div>
+        </div>
+
+        <div id="1" class="step slide" data-y="-1500">
+            <div class="slide-text">
+                <p>There are two caves in front of you. </p>
+                <p>Choose a cave that you want to enter.</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#1-1">LEFT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#1-2">RIGHT</a></p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+            </div>
+        </div>
+
+        <div id="1-1" class="step slide" data-x="-1500" data-y="-1500">
+            <div class="slide-text">
+                <p>You get into the left cave.</p>
+                <p>This is a bright cave. You see a chest.</p>
+                <p>But beside the chest, there is a very huge dragon sleeping.</p>
+                <p>It seems that the dragon is protecting the treasure chest.</p>
+                <p>Do you want the treasure in the chest?</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#1-1-1">YES</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#1-1-2">NO</a></p>
+            </div>
+        </div>
+
+    </div>
+    <!-- JavaScript Section -->
+    <script src="Scripts/lib/impress.js"></script>
+    <script src="Scripts/lib/game.js"></script>
 </body>
 </html>
