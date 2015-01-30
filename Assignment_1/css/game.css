@@ -36,6 +36,20 @@
     line-height: 1.5;
 }
 
+
+
+.darkcave{
+    opacity:0.3;
+    width: 302px;
+    height: 224px;
+}
+
+.face1{
+    opacity:.1;
+    width: 302px;
+    height: 224px;
+}
+
 .impress-enabled .step {
     margin: 0;
     opacity: 0.3;
