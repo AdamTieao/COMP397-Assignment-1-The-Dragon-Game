@@ -67,12 +67,16 @@
   <ItemGroup>
     <Content Include="css\game.css" />
     <Content Include="css\reset.css" />
+    <Content Include="images\1-1-1.png" />
     <Content Include="images\1.png" />
+    <Content Include="images\2.png" />
     <Content Include="images\84b1OOOPICf9.png" />
     <Content Include="images\Bright  cave.png" />
     <Content Include="images\Bright cave.png" />
     <Content Include="images\dark cave.png" />
     <Content Include="images\imagesX5Q3Q0J6.png" />
+    <Content Include="images\sleeping-dragon.png" />
+    <Content Include="images\treasure-chest.png" />
     <Content Include="index.html" />
     <Content Include="Scripts\lib\game.js" />
     <Content Include="Scripts\lib\impress.js" />
