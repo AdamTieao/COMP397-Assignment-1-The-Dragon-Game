@@ -36,12 +36,34 @@
     line-height: 1.5;
 }
 
+.title {
+    color:yellow;
+    text-align:center;
+    font: bold 50px Times New Roman;
+}
 
+.facetitle {
+    opacity:.7;
+    width: 351px;
+    height: 220px;
+}
+
+.dragontitle {
+    opacity:.7;
+    width: 341px;
+    height: 387px;
+}
 
 .darkcave{
     opacity:0.7;
     width: 302px;
     height: 224px;
+}
+
+.cave1-1-2-1{
+    opacity:.7;
+    width: 300px;
+    height: 226px;
 }
 
 .face1{
@@ -74,6 +96,131 @@
     height: 322px;
 }
 
+.face1-1-1-1 {
+    opacity:.7;
+    width: 174px;
+    height: 162px;
+}
+
+.face1-1-2{
+    opacity:.7;
+    width: 354px;
+    height: 264px;
+}
+
+.face1-1-2-1{
+    opacity:.7;
+    width: 156px;
+    height: 152px;
+}
+
+.face1-1-2-2
+{
+    opacity:.7;
+    width: 141px;
+    height: 176px;
+}
+
+.face1-2
+{
+    opacity:.7;
+    width: 366px;
+    height: 374px;
+}
+
+.face1-2-1
+{
+    opacity:.7;
+    width: 184px;
+    height: 175px;
+}
+
+.torch1-2-1
+{
+    opacity:.7;
+    width: 76px;
+    height: 211px;
+}
+
+.chest1-2-1
+{
+    opacity:.7;
+    width: 129px;
+    height: 93px;
+}
+
+.dragon1-2-1
+{
+    opacity:.7;
+    width: 240px;
+    height: 152px;
+}
+
+.face1-2-1-1
+{
+    opacity:.7;
+    width: 138px;
+    height: 130px;
+}
+
+.chest1-2-1-1
+{
+    opacity:.7;
+    width: 137px;
+    height: 124px;
+}
+
+.dragon1-2-1-2
+{
+    opacity:.7;
+    width: 189px;
+    height: 150px;
+}
+
+.face1-2-1-2
+{
+    opacity:.7;
+    width: 90px;
+    height: 71px;
+}
+
+.face1-2-2 {
+    opacity:.7;
+    width: 215px;
+    height: 194px;
+}
+
+.face1-2-2-1 {
+    opacity:.7;
+    width: 152px;
+    height: 135px;
+}
+
+.dragontail {
+    opacity:.7;
+    width: 97px;
+    height: 68px;
+}
+
+.foot {
+    opacity:.7;
+    width: 63.6px;
+    height: 65.4px;
+}
+
+.facedead{
+    width: 211px;
+    height: 194px;
+    text-align:center;
+    opacity:.7;
+}
+
+.facesurvive{
+    opacity:.7;
+    width: 300px;
+    height: 168px;
+}
+
 .impress-enabled .step {
     margin: 0;
     opacity: 0.3;
@@ -102,7 +249,7 @@
         
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
     color: white;
-    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .3);
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 30px;
     line-height: 36px;
